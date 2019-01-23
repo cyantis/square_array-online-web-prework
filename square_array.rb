@@ -1,7 +1,6 @@
 def square_array(array)
-  sqrt_arr = []
+  sq_arr = []
   array.each do |item|
-    item_sqrt = sqrt(item)
-    sqrt_arr.push(item_sqrt)
+    sq_arr.push(item * item)
   end
 end
